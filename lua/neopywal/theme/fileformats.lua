@@ -677,13 +677,13 @@ M.get = function(colors)
 		--: Lua: {{{
 		apply_fileformat("lua", {
 			--: builtin: {{{
-			luaFunc = { fg = colors.color2 },
-			luaFunction = { fg = colors.color1 },
-			luaTable = { fg = colors.color4 },
+			luaFunc = { link = "Function" },
+			luaFunction = { link = "Function" },
+			luaTable = { link = "Special" },
 			luaIn = { fg = colors.color1 },
 			--: }}}
 			--: vim-lua: https://github.com/tbastos/vim-lua{{{
-			luaFuncCall = { fg = colors.color2 },
+			luaFuncCall = { link = "Function" },
 			luaLocal = { fg = colors.color1 },
 			luaSpecialValue = { fg = colors.color2 },
 			luaBraces = { fg = colors.foreground },
